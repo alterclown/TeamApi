@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="TeamService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReactAngularPracticeApi.Data\ReactAngularPracticeApi.Data.csproj" />
+    <ProjectReference Include="..\ReactAngularPracticeApi.Repository\ReactAngularPracticeApi.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
